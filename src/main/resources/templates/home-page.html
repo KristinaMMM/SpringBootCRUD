@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">-->
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+</head>
+<body>
+<div>
+<!--    <p><a href="/user-list">One (Users)</a></p>-->
+    <p th:text="'Hello, ' + ${name} + '!'"></p>
+    <p><a href="/users">One (Users)</a></p>
+    <p><a href="/users">One to one ()</a></p>
+    <p><a href="/users">One to many()</a></p>
+    <p><a href="/users">Many to many ()</a></p>
+<!--    <form:form method = "GET" action = "/user-list">-->
+<!--        <table>-->
+<!--            <tr>-->
+<!--                <td>-->
+<!--                    <input type = "submit" value = "One (Users)"/>-->
+<!--                </td>-->
+<!--            </tr>-->
+<!--        </table>-->
+<!--    </form:form>-->
+</div>
+</body>
+</html>
